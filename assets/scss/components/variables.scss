@@ -1,0 +1,189 @@
+/* Colors */
+$black: rgb(0, 0, 0);
+$white: rgb(255, 255, 255);
+$light: rgb(242, 244, 248);
+$dark: rgb(28, 36, 50);
+$shadow: rgba(0, 0, 0, 0.2);
+$main: rgb(245, 245, 245);
+$primary: rgb(0, 152, 215);
+$secondary: rgb(96, 198, 242);
+$info: rgb(239, 244, 247);
+$success: rgb(75, 218, 11);
+$warning: rgb(241, 185, 55);
+$danger: rgb(255, 66, 66);
+$link: transparent;
+$light-blue: rgb(150, 214, 247);
+$blue: rgb(96, 198, 242);
+$dark-blue: rgb(0, 152, 215);
+$light-pink: rgb(246, 175, 206);
+$pink: rgb(243, 146, 189);
+$dark-pink: rgb(239, 83, 158);
+
+/* Hover colors */
+$black-hover: rgb(0, 0, 0);
+$white-hover: rgb(255, 255, 255);
+$light-hover: rgb(223, 225, 228);
+$dark-hover: rgb(19, 23, 30);
+$shadow-hover: rgba(0, 0, 0, 0.2);
+$main-hover: rgb(245, 245, 245);
+$primary-hover: rgb(0, 152, 215);
+$secondary-hover: rgb(96, 198, 242);
+$info-hover: rgb(239, 244, 247);
+$success-hover: rgb(119, 244, 37);
+$warning-hover: rgb(255, 204, 0);
+$danger-hover: rgb(235, 53, 53);
+$link-hover: transparent;
+$light-blue-hover: rgb(150, 214, 247);
+$blue-hover: rgb(96, 198, 242);
+$dark-blue-hover: rgb(0, 152, 215);
+$light-pink-hover: rgb(246, 175, 206);
+$pink-hover: rgb(243, 146, 189);
+$dark-pink-hover: rgb(239, 83, 158);
+
+/* Disabled colors */
+$black-disabled: rgb(0, 0, 0);
+$white-disabled: rgb(255, 255, 255);
+$light-disabled: rgb(242, 244, 248);
+$dark-disabled: rgb(28, 36, 50);
+$shadow-disabled: rgba(0, 0, 0, 0.2);
+$main-disabled: rgb(245, 245, 245);
+$primary-disabled: rgb(42, 57, 87);
+$secondary-disabled: rgb(137, 143, 167);
+$info-disabled: rgb(236, 237, 239);
+$success-disabled: rgb(112, 224, 39);
+$warning-disabled: rgb(251, 211, 47);
+$danger-disabled: rgb(255, 66, 66);
+$link-disabled: transparent;
+$light-blue-disabled: rgb(150, 214, 247);
+$blue-disabled: rgb(96, 198, 242);
+$dark-blue-disabled: rgb(0, 152, 215);
+$light-pink-disabled: rgb(246, 175, 206);
+$pink-disabled: rgb(243, 146, 189);
+$dark-pink-disabled: rgb(239, 83, 158);
+
+/* Text colors */
+$black-text: $white;
+$white-text: $black;
+$light-text: $black;
+$dark-text: $white;
+$shadow-text: $white;
+$main-text: $black;
+$primary-text: $white;
+$secondary-text: $white;
+$info-text: $black;
+$success-text: $white;
+$warning-text: $white;
+$danger-text: $white;
+$link-text: $black;
+$light-blue-text: $black;
+$blue-text: $black;
+$dark-blue-text: $white;
+$light-pink-text: $black;
+$pink-text: $black;
+$dark-pink-text: $white;
+
+/* Border colors */
+$black-border: $black;
+$white-border: $white;
+$light-border: $light;
+$dark-border: $dark;
+$shadow-border: $shadow;
+$main-border: $main;
+$primary-border: $primary;
+$secondary-border: $secondary;
+$info-border: $black;
+$success-border: $success;
+$warning-border: $warning;
+$danger-border: $danger;
+$link-border: $black;
+$light-blue-border: $light-blue;
+$blue-border: $blue;
+$dark-blue-border: $dark-blue;
+$light-pink-border: $light-pink;
+$pink-border: $pink;
+$dark-pink-border: $dark-pink;
+
+/* Border text colors */
+$black-border-text: $black;
+$white-border-text: $white;
+$light-border-text: $black;
+$dark-border-text: $black;
+$shadow-border-text: $white;
+$main-border-text: $black;
+$primary-border-text: $primary;
+$secondary-border-text: $secondary;
+$info-border-text: $black;
+$success-border-text: $success;
+$warning-border-text: $warning;
+$danger-border-text: $danger;
+$link-border-text: $black;
+$light-blue-border-text: $light-blue;
+$blue-border-text: $blue;
+$dark-blue-border-text: $dark-blue;
+$light-pink-border-text: $light-pink;
+$pink-border-text: $pink;
+$dark-pink-border-text: $dark-pink;
+
+/* Main */
+$main-background: $main;
+$light-background: $white;
+$dark-background: $black;
+$text-light: $white;
+$text-dark: $black;
+
+$border-radius: 3px;
+$border-color: $black;
+
+$font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+   "Droid Sans", "Helvetica Neue", sans-serif;
+
+$font-size-xxsmall: 0.4em;
+$font-size-xsmall: 0.6em;
+$font-size-small: 0.8em;
+$font-size-text: 1em;
+$font-size-subtitle: 1.2em;
+$font-size-title: 1.4em;
+$font-size-large: 1.6em;
+$font-size-xlarge: 1.8em;
+$font-size-xxlarge: 2em;
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+$line-height: 1.5;
+$letter-spacing: 0.1rem;
+
+$transition: all 0.3s ease-in-out;
+$transition-fast: all 0.1s ease-in-out;
+$transition-slow: all 0.5s ease-in-out;
+$transition-slower: all 1s ease-in-out;
+$transition-slowest: all 2s ease-in-out;
+
+$spacing: 1.6rem;
+$spacing-small: 1.2rem;
+$spacing-smaller: 0.8rem;
+$spacing-smallest: 0.4rem;
+$spacing-big: 2.4rem;
+$spacing-bigger: 3.2rem;
+$spacing-biggest: 4rem;
+
+$mobile: 600px;
+$tablet: 900px;
+$desktop: 1200px;
+$large-desktop: 1800px;
+
+/* Media queries screen sizes */
+$screen-xs-min: 0;
+$screen-sm-min: 576px;
+$screen-md-min: 768px;
+$screen-lg-min: 992px;
+$screen-xl-min: 1200px;
+$screen-xxl-min: 1400px;
+
+$screen-xs-max: 575px;
+$screen-sm-max: 767px;
+$screen-md-max: 991px;
+$screen-lg-max: 1199px;
+$screen-xl-max: 1399px;
+$screen-xxl-max: 1600px;

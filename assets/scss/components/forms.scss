@@ -1,0 +1,177 @@
+@import "variables";
+
+/* Buttons */
+.btn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+   margin: 0;
+   border: none;
+   border-radius: 3px;
+   height: 38px;
+   font-size: $font-size-text;
+   cursor: pointer;
+
+   // create array of color names
+   $color-names: ("primary", "secondary", "danger", "warning", "success", "info", "light", "dark");
+   // create array of colors
+   $colors: ($primary, $secondary, $danger, $warning, $success, $info, $light, $dark);
+   // create array of text colors
+   $text-colors: (
+      $primary-text,
+      $secondary-text,
+      $danger-text,
+      $warning-text,
+      $success-text,
+      $info-text,
+      $light-text,
+      $dark-text
+   );
+   // create array of hover colors
+   $hover-colors: (
+      $primary-hover,
+      $secondary-hover,
+      $danger-hover,
+      $warning-hover,
+      $success-hover,
+      $info-hover,
+      $light-hover,
+      $dark-hover
+   );
+   // create array of disabled colors
+   $disabled-colors: (
+      $primary-disabled,
+      $secondary-disabled,
+      $danger-disabled,
+      $warning-disabled,
+      $success-disabled,
+      $info-disabled,
+      $light-disabled,
+      $dark-disabled
+   );
+   // create array of border colors
+   $border-colors: (
+      $primary-border,
+      $secondary-border,
+      $danger-border,
+      $warning-border,
+      $success-border,
+      $info-border,
+      $light-border,
+      $dark-border
+   );
+   // create array of border text colors
+   $border-text-colors: (
+      $primary-border-text,
+      $secondary-border-text,
+      $danger-border-text,
+      $warning-border-text,
+      $success-border-text,
+      $info-border-text,
+      $light-border-text,
+      $dark-border-text
+   );
+
+   // loop through colors
+   @for $i from 1 through length($colors) {
+      $color-name: nth($color-names, $i);
+      $color: nth($colors, $i);
+      $text-color: nth($text-colors, $i);
+      $hover-color: nth($hover-colors, $i);
+      $disabled-color: nth($disabled-colors, $i);
+      $border-color: nth($border-colors, $i);
+      $border-text-color: nth($border-text-colors, $i);
+
+      // create class for color
+      &.#{$color-name} {
+         background-color: $color;
+         color: $text-color;
+
+         &:hover:not(.disabled) {
+            background-color: $hover-color;
+         }
+
+         &.border {
+            background-color: transparent !important;
+            border: 1px solid $color !important;
+            color: $border-text-color !important;
+
+            &:hover {
+               background-color: transparent !important;
+               border: 1px solid $hover-color !important;
+            }
+         }
+      }
+   }
+
+   &.link {
+      background-color: transparent;
+      color: $black;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+
+      &:hover {
+         text-decoration: none;
+      }
+   }
+
+   &.shadow {
+      box-shadow: 2px 2px 5px $shadow !important;
+      transition: 0.2s !important;
+
+      &:hover {
+         box-shadow: 1px 1px 2px $shadow !important;
+      }
+
+      &.border {
+         box-shadow: 2px 2px 5px $shadow !important;
+         transition: 0.2s !important;
+
+         &:hover {
+            box-shadow: 1px 1px 2px $shadow !important;
+         }
+      }
+   }
+
+   &.small {
+      height: 30px;
+      font-size: $font-size-small;
+   }
+
+   &.no-hover {
+      &:hover {
+         background-color: inherit !important;
+      }
+   }
+
+   &:disabled,
+   &.disabled {
+      opacity: 0.6 !important;
+      cursor: not-allowed !important;
+      text-decoration: none !important;
+   }
+}
+
+/* Inputs */
+input {
+   height: 35px;
+   padding: 0 10px;
+   border: 1px solid $shadow;
+   border-radius: 3px;
+}
+
+/* Textareas */
+textarea {
+   padding: 10px;
+   border: 1px solid $shadow;
+   border-radius: 3px;
+}
+
+/* Select */
+select {
+   height: 35px;
+   padding: 0 10px;
+   border: 1px solid $shadow;
+   border-radius: 3px;
+}

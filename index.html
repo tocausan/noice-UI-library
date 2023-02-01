@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Noice</title>
+   <link rel="stylesheet" href="assets/css/style.min.css">
+</head>
+
+<body>
+   <div class='width-100 padding-horizontal-20'>
+
+      <h1>Design System</h1>
+
+      <!-- Colors -->
+      <div class='width-100 flex flex-column'>
+         <h2>Colors</h2>
+         <div class='width-100 flex flex-row flex-justify-space-evenly flex-wrap bg-white padding-10'>
+            <div class='color_box'>
+               <div class='color_box__color bg-black'></div>
+               <div class='color_box__name'>Black</div>
+               <div class='color_box__code'>0 , 0 , 0</div>
+            </div>
+            <div class='color_box'>
+               <div class='color_box__color bg-white'></div>
+               <div class='color_box__name'>White</div>
+               <div class='color_box__code'>255 , 255 , 255</div>
+            </div>
+
+            <div class='color_box'>
+               <div class='color_box__color bg-shadow'></div>
+               <div class='color_box__name'>Shadow</div>
+               <div class='color_box__code'>0 , 0 , 0 , 0.2</div>
+            </div>
+
+            <div class='color_box'>
+               <div class='color_box__color bg-main'></div>
+               <div class='color_box__name'>Main</div>
+               <div class='color_box__code'>245 , 245 , 245</div>
+            </div>
+
+            <div class='color_box'>
+               <div class='color_box__color bg-primary'></div>
+               <div class='color_box__name'>Primary</div>
+               <div class='color_box__code'>42 , 57 , 87</div>
+            </div>
+            <div class='color_box'>
+               <div class='color_box__color bg-secondary'></div>
+               <div class='color_box__name'>Secondary</div>
+               <div class='color_box__code'>137 , 143 , 167</div>
+            </div>
+            <div class='color_box'>
+               <div class='color_box__color bg-danger'></div>
+               <div class='color_box__name'>Danger</div>
+               <div class='color_box__code'>255 , 66 , 66</div>
+            </div>
+            <div class='color_box'>
+               <div class='color_box__color bg-warning'></div>
+               <div class='color_box__name'>Warning</div>
+               <div class='color_box__code'>251 , 211 , 47</div>
+            </div>
+            <div class='color_box'>
+               <div class='color_box__color bg-success'></div>
+               <div class='color_box__name'>Success</div>
+               <div class='color_box__code'>178 , 255 , 28</div>
+            </div>
+            <div class='color_box'>
+               <div class='color_box__color bg-info'></div>
+               <div class='color_box__name'>Info</div>
+               <div class='color_box__code'>129 , 153 , 191</div>
+            </div>
+
+            <div class='color_box'>
+               <div class='color_box__color bg-light-blue'></div>
+               <div class='color_box__name'>Light Blue</div>
+               <div class='color_box__code'>150 , 214 , 247</div>
+            </div>
+            <div class='color_box'>
+               <div class='color_box__color bg-blue'></div>
+               <div class='color_box__name'>Blue</div>
+               <div class='color_box__code'>96 , 198 , 242</div>
+            </div>
+            <div class='color_box'>
+               <div class='color_box__color bg-dark-blue'></div>
+               <div class='color_box__name'>Dark Blue</div>
+               <div class='color_box__code'>0 , 152 , 215</div>
+            </div>
+
+            <div class='color_box'>
+               <div class='color_box__color bg-light-pink'></div>
+               <div class='color_box__name'>Light Pink</div>
+               <div class='color_box__code'>246 , 175 , 206</div>
+            </div>
+            <div class='color_box'>
+               <div class='color_box__color bg-pink'></div>
+               <div class='color_box__name'>Pink</div>
+               <div class='color_box__code'>243 , 146 , 189</div>
+            </div>
+            <div class='color_box'>
+               <div class='color_box__color bg-dark-pink'></div>
+               <div class='color_box__name'>Dark Pink</div>
+               <div class='color_box__code'>239 , 83 , 158</div>
+            </div>
+         </div>
+
+         <!-- Responsive -->
+         <h2>Responsive</h2>
+         <div class='width-100 flex flex-row flex-justify-start flex-wrap bg-white padding-10'>
+            <div class='margin-right-20'>
+               <h3>Screen sizes</h3>
+               <ul>
+                  <li>.xs-[class name]</li>
+                  <li>.sm-[class name]</li>
+                  <li>.md-[class name]</li>
+                  <li>.lg-[class name]</li>
+                  <li>.xl-[class name]</li>
+                  <li>.xxl-[class name]</li>
+               </ul>
+            </div>
+
+            <div class='margin-right-20'>
+               <h3>Only</h3>
+               <ul>
+                  <li>.xs-only</li>
+                  <li>.sm-only</li>
+                  <li>.md-only</li>
+                  <li>.lg-only</li>
+                  <li>.xl-only</li>
+                  <li>.xxl-only</li>
+               </ul>
+            </div>
+
+            <div class='margin-right-20'>
+               <h3>Up</h3>
+               <ul>
+                  <li>.xs-up</li>
+                  <li>.sm-up</li>
+                  <li>.md-up</li>
+                  <li>.lg-up</li>
+                  <li>.xl-up</li>
+                  <li>.xxl-up</li>
+               </ul>
+            </div>
+
+            <div class='margin-right-20'>
+               <h3>Down</h3>
+               <ul>
+                  <li>.xs-down</li>
+                  <li>.sm-down</li>
+                  <li>.md-down</li>
+                  <li>.lg-down</li>
+                  <li>.xl-down</li>
+                  <li>.xxl-down</li>
+               </ul>
+            </div>
+         </div>
+
+         <!-- Text -->
+         <h2>Text</h2>
+         <div class='width-100 flex flex-row flex-justify-start flex-wrap bg-white padding-10'>
+
+            <div class='margin-right-20'>
+               <h3>Font size</h3>
+               <ul>
+                  <li class='font-size-xxsmall'>.font-size-xxsmall</li>
+                  <li class='font-size-xsmall'>.font-size-xsmall</li>
+                  <li class='font-size-small'>.font-size-small</li>
+                  <li class='font-size-text'>.font-size-text</li>
+                  <li class='font-size-subtitle'>.font-size-subtitle</li>
+                  <li class='font-size-title'>.font-size-title</li>
+                  <li class='font-size-large'>.font-size-large</li>
+                  <li class='font-size-xlarge'>.font-size-xlarge</li>
+                  <li class='font-size-xxlarge'>.font-size-xxlarge</li>
+               </ul>
+            </div>
+
+            <div class='margin-right-20'>
+               <h3>Font weight</h3>
+               <ul>
+                  <li class='font-weight-light'>.font-weight-light</li>
+                  <li class='font-weight-normal'>.font-weight-normal</li>
+                  <li class='font-weight-bold'>.font-weight-bold</li>
+               </ul>
+            </div>
+
+            <div class='margin-right-20'>
+               <h3>Font color</h3>
+               <ul>
+                  <li class='color-black'>.color-black</li>
+                  <li class='color-white'>.color-white</li>
+                  <li class='color-main'>.color-main</li>
+                  <li class='color-light'>.color-light</li>
+                  <li class='color-primary'>.color-primary</li>
+                  <li class='color-secondary'>.color-secondary</li>
+                  <li class='color-danger'>.color-danger</li>
+                  <li class='color-warning'>.color-warning</li>
+                  <li class='color-success'>.color-success</li>
+                  <li class='color-info'>.color-info</li>
+                  <li class='color-light-blue'>.color-light-blue</li>
+                  <li class='color-blue'>.color-blue</li>
+                  <li class='color-dark-blue'>.color-dark-blue</li>
+                  <li class='color-light-pink'>.color-light-pink</li>
+                  <li class='color-pink'>.color-pink</li>
+                  <li class='color-dark-pink'>.color-dark-pink</li>
+               </ul>
+            </div>
+         </div>
+      </div>
+
+      <!-- Display -->
+      <h2>Display</h2>
+      <div class='width-100 flex flex-row flex-justify-start flex-wrap bg-white padding-10'>
+         <div class='margin-right-20'>
+            <h3>Visibility</h3>
+            <ul>
+               <li>.visible</li>
+               <li>.invisible</li>
+            </ul>
+         </div>
+
+         <div class='margin-right-20'>
+            <h3>Position</h3>
+            <ul>
+               <li>.position-relative</li>
+               <li>.position-absolute</li>
+               <li>.position-fixed</li>
+               <li>.position-static</li>
+               <li>.position-sticky</li>
+            </ul>
+         </div>
+
+         <div class='margin-right-20'>
+            <h3>Display</h3>
+            <ul>
+               <li>.block</li>
+               <li>.inline-block</li>
+               <li>.inline</li>
+               <li>.none</li>
+               <li>.table</li>
+               <li>.table-cell</li>
+               <li>.table-row</li>
+               <li>.flex</li>
+               <li>.inline-flex</li>
+            </ul>
+         </div>
+
+         <div class='margin-right-20'>
+            <h3>Flex</h3>
+            <ul>
+               <li>.flex-row</li>
+               <li>.flex-column</li>
+               <li>.flex-center</li>
+               <li>.flex-start</li>
+               <li>.flex-end</li>
+               <li>.flex-justify-center</li>
+               <li>.flex-justify-space-between</li>
+               <li>.flex-justify-space-evenly</li>
+               <li>.flex-justify-space-around</li>
+               <li>.flex-justify-start</li>
+               <li>.flex-justify-end</li>
+               <li>.flex-align-center</li>
+               <li>.flex-align-start</li>
+               <li>.flex-align-end</li>
+               <li>.flex-align-baseline</li>
+               <li>.flex-align-stretch</li>
+               <li>.flex-wrap</li>
+               <li>.flex-wrap-reverse</li>
+               <li>.flex-no-wrap</li>
+               <li>.flex-grow</li>
+               <li>.flex-no-grow</li>
+               <li>.flex-shrink</li>
+               <li>.flex-no-shrink</li>
+            </ul>
+         </div>
+
+         <div class='margin-right-20'>
+            <h3>Size</h3>
+            <ul>
+               <li>.width-[0-100 by 5] (%)</li>
+               <li>.min-width-[0-100 by 5] (px)</li>
+               <li>.max-width-[0-100 by 5] (px)</li>
+               <li>.height-[0-100 by 5] (%)</li>
+               <li>.min-height-[0-100 by 5] (px)</li>
+               <li>.max-height-[0-100 by 5] (px)</li>
+            </ul>
+         </div>
+
+         <div class='margin-right-20'>
+            <h3>Margin</h3>
+            <ul>
+               <li>.margin-[0-100 by 5] (px)</li>
+               <li>.margin-top-[0-100 by 5] (px)</li>
+               <li>.margin-right-[0-100 by 5] (px)</li>
+               <li>.margin-bottom-[0-100 by 5] (px)</li>
+               <li>.margin-left-[0-100 by 5] (px)</li>
+               <li>.margin-horizontal-[0-100 by 5] (px)</li>
+               <li>.margin-vertical-[0-100 by 5] (px)</li>
+               <li>.margin-[0-100]-[0-100 by 5] (px)</li>
+            </ul>
+         </div>
+
+         <div class='margin-right-20'>
+            <h3>Padding</h3>
+            <ul>
+               <li>.padding-[0-100 by 5] (px)</li>
+               <li>.padding-top-[0-100 by 5] (px)</li>
+               <li>.padding-right-[0-100 by 5] (px)</li>
+               <li>.padding-bottom-[0-100 by 5] (px)</li>
+               <li>.padding-left-[0-100 by 5] (px)</li>
+               <li>.padding-horizontal-[0-100 by 5] (px)</li>
+               <li>.padding-vertical-[0-100 by 5] (px)</li>
+               <li>.padding-[0-100]-[0-100 by 5] (px)</li>
+            </ul>
+         </div>
+
+         <div class='margin-right-20'>
+            <h3>Border</h3>
+            <ul>
+               <li>.border</li>
+               <li>.border-radius</li>
+               <li>.border-top</li>
+               <li>.border-right</li>
+               <li>.border-bottom</li>
+               <li>.border-left</li>
+
+               <li>.border-none</li>
+               <li>.border-top-none</li>
+               <li>.border-right-none</li>
+               <li>.border-bottom-none</li>
+               <li>.border-left-none</li>
+
+               <li>.border-width-[0-5] (px)</li>
+               <li>.border-radius-[0-50] (px)</li>
+               <li>.border-top-left-radius-[0-50] (px)</li>
+               <li>.border-top-right-radius-[0-50] (px)</li>
+               <li>.border-bottom-left-radius-[0-50] (px)</li>
+               <li>.border-bottom-right-radius-[0-50] (px)</li>
+            </ul>
+         </div>
+
+         <div class='margin-right-20'>
+            <h3>Opacity</h3>
+            <ul>
+               <li>.opacity-[0-10]</li>
+            </ul>
+         </div>
+      </div>
+
+      <!-- Buttons & Controls -->
+      <h2>Buttons & Controls</h2>
+      <div class='width-100 flex flex-row flex-justify-start flex-wrap bg-white padding-10'>
+         <div class="flex flex-column margin-right-20">
+            <h3>Small</h3>
+            <a class='btn btn-primary btn-small margin-vertical-2'>Primary</a>
+            <a class='btn btn-secondary btn-small margin-vertical-2'>Secondary</a>
+            <a class='btn btn-success btn-small margin-vertical-2'>Success</a>
+            <a class='btn btn-warning btn-small margin-vertical-2'>Warning</a>
+            <a class='btn btn-danger btn-small margin-vertical-2'>Danger</a>
+            <a class='btn btn-info btn-small margin-vertical-2'>Info</a>
+            <a class='btn btn-light btn-small margin-vertical-2'>Light</a>
+            <a class='btn btn-dark btn-small margin-vertical-2'>Dark</a>
+            <a class='btn btn-link btn-small margin-vertical-2'>Link</a>
+         </div>
+
+         <div class="flex flex-column margin-right-20">
+            <h3>Standard</h3>
+            <a class='btn btn-primary margin-vertical-2'>Primary</a>
+            <a class='btn btn-secondary margin-vertical-2'>Secondary</a>
+            <a class='btn btn-success margin-vertical-2'>Success</a>
+            <a class='btn btn-warning margin-vertical-2'>Warning</a>
+            <a class='btn btn-danger margin-vertical-2'>Danger</a>
+            <a class='btn btn-info margin-vertical-2'>Info</a>
+            <a class='btn btn-light margin-vertical-2'>Light</a>
+            <a class='btn btn-dark margin-vertical-2'>Dark</a>
+            <a class='btn btn-link margin-vertical-2'>Link</a>
+         </div>
+
+         <div class="flex flex-column margin-right-20">
+            <h3>Disabled</h3>
+            <a class='btn btn-primary disabled margin-vertical-2'>Primary</a>
+            <a class='btn btn-secondary disabled margin-vertical-2'>Secondary</a>
+            <a class='btn btn-success disabled margin-vertical-2'>Success</a>
+            <a class='btn btn-warning disabled margin-vertical-2'>Warning</a>
+            <a class='btn btn-danger disabled margin-vertical-2'>Danger</a>
+            <a class='btn btn-info disabled margin-vertical-2'>Info</a>
+            <a class='btn btn-light disabled margin-vertical-2'>Light</a>
+            <a class='btn btn-dark disabled margin-vertical-2'>Dark</a>
+            <a class='btn btn-link disabled margin-vertical-2'>Link</a>
+         </div>
+
+         <div class="flex flex-column margin-right-20">
+            <h3>Border</h3>
+            <a class='btn btn-border-primary margin-vertical-2'>Primary</a>
+            <a class='btn btn-border-secondary margin-vertical-2'>Secondary</a>
+            <a class='btn btn-border-success margin-vertical-2'>Success</a>
+            <a class='btn btn-border-warning margin-vertical-2'>Warning</a>
+            <a class='btn btn-border-danger margin-vertical-2'>Danger</a>
+            <a class='btn btn-border-info margin-vertical-2'>Info</a>
+            <a class='btn btn-border-light margin-vertical-2'>Light</a>
+            <a class='btn btn-border-dark margin-vertical-2'>Dark</a>
+            <a class='btn btn-border-link margin-vertical-2'>Link</a>
+         </div>
+
+         <div class="flex flex-column margin-right-20">
+            <h3>Border</h3>
+            <a class='btn btn-border-primary disabled' margin-vertical-2>Primary</a>
+            <a class='btn btn-border-secondary disabled margin-vertical-2'>Secondary</a>
+            <a class='btn btn-border-success disabled margin-vertical-2'>Success</a>
+            <a class='btn btn-border-warning disabled margin-vertical-2'>Warning</a>
+            <a class='btn btn-border-danger disabled margin-vertical-2'>Danger</a>
+            <a class='btn btn-border-info disabled margin-vertical-2'>Info</a>
+            <a class='btn btn-border-light disabled margin-vertical-2'>Light</a>
+            <a class='btn btn-border-dark disabled margin-vertical-2'>Dark</a>
+            <a class='btn btn-border-link disabled margin-vertical-2'>Link</a>
+         </div>
+
+         <div class="flex flex-column margin-right-20">
+            <h3>Other</h3>
+            <a class='btn btn-shadow margin-vertical-2'>Shadow</a>
+         </div>
+      </div>
+
+      <!-- Forms -->
+      <h2>Forms</h2>
+      <div class='width-100 flex flex-row flex-justify-start flex-wrap bg-white padding-10'>
+         <div class="flex flex-column margin-right-20">
+            <h3>Inputs</h3>
+            <input type="text" class='' />
+            <input type="password" class='' />
+            <input type="time" class='' />
+            <input type="button" class='' />
+            <input type="submit" class='' />
+            <input type="reset" class='' />
+            <input type="checkbox" class='' />
+            <input type="radio" class='' />
+            <input type="file" class='' />
+            <input type="color" class='' />
+            <input type="date" class='' />
+            <input type="datetime-local" class='' />
+            <input type="email" class='' />
+            <input type="month" class='' />
+            <input type="number" class='' />
+            <input type="range" class='' />
+            <input type="search" class='' />
+            <input type="tel" class='' />
+            <input type="url" class='' />
+            <input type="week" class='' />
+         </div>
+
+         <div class="flex flex-column margin-right-20">
+            <h3>Textarea</h3>
+            <textarea></textarea>
+         </div>
+
+         <div class="flex flex-column margin-right-20">
+            <h3>Select</h3>
+            <select>
+               <option>Option 1</option>
+               <option>Option 2</option>
+               <option>Option 3</option>
+               <option>Option 4</option>
+               <option>Option 5</option>
+            </select>
+         </div>
+      </div>
+
+      <!-- Modals -->
+      <h2>Modals</h2>
+      <div class='width-100 flex flex-row flex-justify-start flex-wrap bg-white padding-10'></div>
+
+
+   </div>
+</body>
+
+</html>

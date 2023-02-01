@@ -1,0 +1,60 @@
+@import "components/variables";
+@import "components/display";
+@import "components/links";
+@import "components/forms";
+@import "components/animations";
+@import "components/design-system";
+
+* {
+   box-sizing: border-box;
+}
+
+html,
+body {
+   padding: 0;
+   margin: 0;
+   font-family: $font-family;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   background-color: $main-background;
+}
+
+code {
+   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+pre {
+   font-size: 0.8rem !important;
+   margin: 0px !important;
+   overflow: scroll !important;
+   max-width: 100%;
+   -ms-overflow-style: none;
+   scrollbar-width: none;
+}
+
+pre::-webkit-scrollbar {
+   display: none;
+}
+
+ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+li {
+   padding: 0;
+   margin: 0;
+}
+
+/* Container */
+.container {
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+   flex-direction: column;
+   flex-wrap: wrap;
+   padding: 10px 0px;
+   border-radius: $border-radius;
+}
+
